@@ -1,0 +1,36 @@
+
+  .editable{
+    position: relative;
+}
+.editable__area:focus{
+  border: #ccc solid 1px;
+}
+.editable__area{
+/*   padding: 1rem; */
+/*   position: relative; */
+}
+
+#popup__edit{
+  position: absolute;
+  top: 1rem;
+  left: 14rem;
+  z-index: 10;
+  transition: all 0.2s ease-in-out;
+}
+#popup__selected{
+  background: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: none;
+  transition: color 0.2s, background-color 0.2s ease-in-out;
+}
+
+#popup__selected button{
+  min-width: 4rem;
+}
+#popup__edit__menu{
+    margin-left: 1rem;
+    z-index: 10;
+}

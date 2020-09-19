@@ -1,0 +1,42 @@
+@import "/css/yuryol_global.css";
+.logo, .help__div, aside, .authors__title, .lists__number {
+    min-width: 20rem;
+}
+.logo{
+    font-size: 7rem;
+}
+.authors__title{
+    font-weight: bold;
+}
+header, #content, #authors, #lists, #contacts, footer{
+    margin: 2rem;
+    padding: 4rem;
+}
+header {
+    border-radius: 2rem 2rem 0 0;
+}
+footer {
+    border-radius: 0 0 2rem 2rem;
+}
+
+.line__decoration{
+    width: 10rem;
+    margin-bottom: 4rem;
+}
+#authors a{
+    font-weight: bold;
+}
+#content, #authors, #lists {
+    border-bottom: 1px solid var(--y-gray-light);
+}
+article, #content, #authors {
+    font-size: 2.5rem;
+    line-height: 1.7;
+}
+article p::first-letter{
+    color: var(--y-primary);
+    font-size: 8rem;
+    margin-top: -2rem;
+    float: left;
+    margin-right: 3rem;
+}

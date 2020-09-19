@@ -1,0 +1,28 @@
+  /* slider-------------------- */
+  #slider{
+    height: 600px;
+    width: 100%;
+    background-color: #000;
+    border-radius: 5px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    transition:all .3s ease-in-out;
+  }
+  .slider__btn {
+    opacity: .8;
+    position: absolute;
+    height: 100%;
+    width: 10%;
+    font-size: 60px;
+    line-height: 1;
+    cursor: pointer;
+  }
+  .slider__btn:hover {
+    background: #000;
+    opacity: .2;
+  }
+  #btn__next{
+    right: 0;
+  }

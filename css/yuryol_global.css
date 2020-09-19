@@ -1,0 +1,12 @@
+:root {
+    --y-primary: #1BBC9B;
+    --y-err: rgba(255, 82, 82, 1);;
+    --y-war: rgba(251, 140, 0, 1);
+    --y-info: rgba(33, 150, 243, 1);
+    --y-dark: #151728;
+    --y-grey:#ccc8db;
+    --y-white:#fbfbfb;
+    --y-black: #13111e;
+    --y-gray-light: #b9b3a7;
+    --y-sans: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
